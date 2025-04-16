@@ -2,7 +2,7 @@
 'use client'; // Required for hooks and event handlers
 
 import React, { useState, useEffect } from 'react';
-import { db } from '../lib/firebase'; // Adjust path if needed
+import { db } from './lib/firebase'; // Adjust path if needed
 import {
   collection,
   addDoc,
